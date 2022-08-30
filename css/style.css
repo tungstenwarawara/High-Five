@@ -208,14 +208,6 @@ dl {
 	object-fit: cover;
 }
 
-.col4 div{
-	margin-bottom: 10px;
-}
-
-.inner div{
-	text-align: center;
-}
-
 /* SEC03 RESERVE BUTTON
 ------------------------------------------------------------*/
 .btn-more {
@@ -223,7 +215,7 @@ dl {
     display: inline-block;
 	margin: 20px 4%;
     padding: 0 4%;
-    width: 32%;
+    width: 84%;
     text-decoration: none;
 	text-transform: uppercase;
     text-align: center;
@@ -384,10 +376,6 @@ dl {
 	.panel{
 		display:block !important;
 	}
-	
-	/* #sidebar h1{
-		padding: 30px 0;
-	} */
 
 	#sidebar h1 .horizontal{ 
 		display: none;
