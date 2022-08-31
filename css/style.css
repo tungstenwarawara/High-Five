@@ -438,6 +438,12 @@ dl {
 	}
 }
 
+@media only screen and (min-width: 440px){
+	.desktop-hidden {
+		display: none;
+	   }
+}
+
 @media only screen and (max-width: 640px){
 	.innerS{
 		width: 94%;
@@ -487,6 +493,10 @@ dl {
 	#sidebar h1 .vertical{ 
 		display: none;
 	} 
+
+	#mainImg1{
+		margin-top: 61px;
+	}
 	
   a#menu{
   	display: inline-block;
