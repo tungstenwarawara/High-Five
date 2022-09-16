@@ -203,7 +203,6 @@ dl {
 #sec03 .inner{
 	width: 100%;
 	margin: 0 auto;
-	padding: 0 10px 50px 10px;
 }
 
 .col4 .img{
@@ -475,6 +474,16 @@ dl {
 }
 
 @media only screen and (max-width: 799px){
+	body{
+		overflow-x: hidden!important;
+	}
+
+	#wrapper{
+		width: 100%;
+		margin: 0 auto;
+		padding: 0;
+	}
+
 	#sidebar{
 		position: fixed;
 		width: 100%;
